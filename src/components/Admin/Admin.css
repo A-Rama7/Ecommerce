@@ -1,0 +1,460 @@
+.Admin_Navbar{
+  height: 100vh;
+  background-color: bisque;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 10px;
+
+  position: relative;
+}
+
+.Admin_Navbar_Item{
+  width: 90%;
+  background: rgb(52, 44, 35);
+  color: white;
+  border-radius: 10px;
+}
+
+.Admin_Navbar_Home{
+  width: 90%;
+  background: rgb(52, 44, 35);
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+
+  position: absolute;
+  bottom: 0;
+
+
+}
+
+.font-white {
+  color: white;
+}
+
+/* CREATE ARTICLE  */
+
+.AdminCreateArticle{
+  width: 100%;
+  height: 97vh;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.AdminCreateArticle_Title{
+  font-size: 80px;
+
+}
+
+.AdminCreateArticle_form{
+  /* background: red; */
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.AdminCreateArticle_form input{
+  /* background: blue; */
+  color: black;
+  border: 3px solid bisque;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.AdminCreateArticle button{
+  font-size: 20px;
+  width: 150px;
+  background: bisque;
+  color: black;
+  border: 3px solid rgb(57, 55, 52);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* SHOW ARTICLES  */
+
+.AdminShowArticle{
+  width: 100%;
+  background: rgb(37, 37, 39);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AdminShowArticle_Cards{
+  overflow: scroll;
+  background: bisque;
+  border: 2px solid rgb(52, 44, 35);
+  width: 95%;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AdminShowArticle_Cards_Details{
+  background: grey;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+
+  margin: 5px;
+  border-radius: 10px;
+  
+  text-align: left;
+  color: black;
+}
+
+.AdminShowArticle_Cards_Details_name{
+  width: 155px;
+}
+
+.AdminShowArticle_Cards_Details_description{
+  width: 250px;
+  
+}
+
+.AdminShowArticle_Cards_Details_price{
+  width: 70px;
+}
+
+.AdminShowArticle_Cards_Details_feature{
+width: 160px;
+}
+
+.AdminShowArticle_Cards_Details_image{
+  width: 100px;
+}
+
+.AdminShowArticle_Cards_Details_quantity{
+  width: 80px;
+}
+
+.AdminShowArticle_Cards_Details_category_id{
+  width: 80px;
+}
+
+.AdminShowArticle_Cards_Details_viewcount{
+  width: 60px;
+}
+
+.AdminShowArticle_Cards_Details_recommendation{
+  width: 60px;
+  overflow-x: scroll;
+}
+
+.AdminShowArticle_Cards_Details_reduction{
+  width: 60px;
+}
+
+.AdminShowArticle_ArticleCard_Options{
+  width: 200px;
+}
+
+/* ADMIN ARTICLE CARD  */
+
+.Admin_ArticleCard{
+  width: 95%;
+  background-color: rgb(52, 44, 35);
+
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_Name{
+  width: 150px;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_Description{
+  width: 230px;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_Price{
+  width: 60px;
+  text-align: center;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_Feature{
+  width: 150px;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_Image{
+  width: 100px;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_Quantity{
+  width: 60px;
+  text-align: center;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_Quantity_zero{
+  width: 60px;
+  text-align: center;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(254, 0, 0);
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_Quantity_noSell{
+  width: 60px;
+  text-align: center;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(238, 255, 0);
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_category_id{
+  width: 60px;
+  text-align: center;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_view_count{
+  width: 60px;
+  text-align: center;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.Admin_ArticleCard_recommendation{
+  width: 60px;
+  text-align: center;
+  border: 2px solid rgb(52, 44, 35);
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.little_font{
+  font-size: 15px;
+}
+
+.Admin_ArticleCard_Options{
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Modifier{
+  background: white;
+  color: black;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+}
+
+.Supprimer{
+  background: white;
+  color: black;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+}
+
+.Stock{
+  background: white;
+  color: black;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+}
+
+.Stock_yes {
+  background-color: red;
+  /* background: white; */
+  color: black;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+}
+
+/* ADMIN CATEGORY */
+
+.Admin_Category{
+  background: rgb(62, 54, 54);  
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Admin_Category_Create{
+  font-size: 30px;
+  background: bisque;
+  border-radius: 10px;
+  border: 2px solid black;
+  
+  margin: 20px;
+  padding: 10px;
+  width:fit-content;
+}
+.Admin_Category_Create a{
+color: black;
+}
+
+.AdminCategory_Call_Cards{
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background: rgb(227, 175, 112);
+  border-radius: 20px;
+}
+
+.Admin_CategoryCard{
+  color: white;
+  background: rgb(52, 44, 35);
+  margin: 5px;
+  width: 95%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Admin_CategoryCard_input{
+color: white;
+  background: transparent;
+  padding: 10px;
+}
+
+.Admin_CategoryCard_input::placeholder{
+color: white;
+}
+
+input::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+input {
+  color: black;
+}
+
+.Admin_CategoryCard_Options{
+  /* background: rgb(224, 150, 150); */
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Admin_CategoryCard_Options_Modifier{
+  background: white;
+  color: black;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+}
+
+.Admin_CategoryCard_Options_Supprimer{
+  background: white;
+  color: black;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+}
+
+/* CREATE CATEGORY  */
+
+
+.AdminCreateCategory{
+  width: 100%;
+  height: 97vh;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.AdminCreateCategory_Title{
+  font-size: 80px;
+
+}
+
+.AdminCreateCategory_form{
+  /* background: red; */
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.AdminCreateCategory_form input{
+  /* background: blue; */
+  color: black;
+  border: 3px solid bisque;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.AdminCreateCategory button{
+  font-size: 20px;
+  width: 150px;
+  background: bisque;
+  color: black;
+  border: 3px solid rgb(57, 55, 52);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.Stock{
+  background: white;
+  color: black;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+}
+
+.Stock_no {
+  background-color: red;
+  /* background: white; */
+  color: black;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+}

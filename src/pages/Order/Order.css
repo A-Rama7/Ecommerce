@@ -1,0 +1,151 @@
+.Order_list {
+  display: flex;
+  flex-direction: column;
+}
+.Order_list .Order_id {
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(149, 149, 149);
+}/*# sourceMappingURL=Order.css.map */
+
+
+#top{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: repeat(3,1fr); */
+  grid-gap: 20px;
+}
+#top h1{
+  /* background: red; */
+  grid-column: 2;
+  grid-row: 1;
+}
+.facture_button{
+  margin-top: 100px;
+  padding: 15px;
+  border: 3px solid white;
+  background: #e3a112;
+}
+.facture_button:hover{
+border: 3px solid #e3a112;
+}
+
+.facture_user{
+  text-align: left;
+  grid-column: 1;
+  grid-row: 2;
+}
+.facture_entreprise{
+  grid-column: 3;
+  grid-row: 3;
+}
+.facture_content{
+  
+  grid-column: 1/span 3;
+  grid-row: 4;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.facture_content table{
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.facture_content p{
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.facture_content table>tbody>tr>td{
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.Facture_Img{
+  width: 389px;
+  height: 140px;
+  transform-origin: left;
+  /* transform: translate(50%, 50%) rotate(90deg) ; */
+  margin: 50px;
+  /* transform: translate(130px, 110px) rotate(-40deg); */
+  /* transform: rotate(-25deg); */
+}
+
+.Facture_Suivi_Livraison{
+  /* background: rgb(48, 48, 63); */
+  display: flex;
+  flex-direction: column;
+}
+
+.Facture_Suivi_Livraison h1{
+  margin: 20px;
+  font-size: 30px;
+}
+
+.Facture_Suivi_Livraison_status{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.Facture_Suivi_Livraison_status div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.green{
+  background: green !important;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+
+  background: white;
+  border-radius: 50%;
+}
+@media print{
+  #top h1{
+    font-size: 70px;
+    color: black;
+  }
+  .facture_user{
+    color: black;
+  }
+  .facture_entreprise{
+    color: black;
+  }
+  .facture_content{
+    color: black;
+  }
+  .facture_content table{
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  .facture_content table>tbody>tr>td{
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  .red{
+    /* color: red; */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .Facture_Img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(130px, 110px) rotate(-40deg);
+    width: 389px;
+    height: 140px;
+  }
+}

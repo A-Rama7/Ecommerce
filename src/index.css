@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Sharp Sans Medium";
+  src: url("../public/imports/font/samsungsharpsans-medium.otf");
+}
+@font-face {
+  font-family: "Sharp Sans Regular";
+  src: url("../public/imports/font/samsungsharpsans.otf");
+}
+@font-face {
+  font-family: "Sharp Sans Bold";
+  src: url("../public/imports/font/samsungsharpsans-bold.otf");
+}
+body {
+  background: rgb(44, 44, 44);
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Sharp Sans Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
