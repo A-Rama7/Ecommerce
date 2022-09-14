@@ -1,0 +1,181 @@
+.Div_data_user_delivery{
+    width: 70%;
+    padding: 3%;
+    margin-top: 1%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.Txt_data_delivery{
+    /* display: flex; */
+    font-size: 3vh;
+    font-family: 'Sharp Sans Bold';
+    /* margin-top: 5%;
+    margin-bottom: 7%; */
+    /* text-align: center; */
+}
+
+.Txt_data_deliveryU{
+    /* display: flex; */
+    font-size: 3vh;
+    font-family: 'Sharp Sans Bold';
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.Div_input_data_perso{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_mail_delivery{
+    width: 80%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 2%;
+    font-size: 2vh;
+    font-family: 'Sharp Sans Medium';
+    margin-bottom: 4%;
+    outline-color: #A8D4AD;
+}
+
+.Div_select_delivery{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input_delivery{
+    width: 15%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 2vh;
+    padding-left: 2%;
+    font-family: 'Sharp Sans Medium';
+    margin-bottom: 5%;
+    outline-color: #A8D4AD;
+}
+
+.delivery_rue_div{
+    display: flex;
+    width: 100%;
+}
+
+.Name_delivery{
+    width: 40%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 2%;
+    font-size: 2vh;
+    font-family: 'Sharp Sans Medium';
+    margin-bottom: 4%;
+    margin-left: 5%;
+    outline-color: #A8D4AD;
+}
+
+.Num_delivery{
+    width: 40%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 2vh;
+    padding-left: 2%;
+    font-family: 'Sharp Sans Medium';
+    margin-bottom: 5%;
+    outline-color: #A8D4AD;
+}
+
+.div_livraison{
+    width: 100%;
+    display: grid;
+    /* flex-direction: column;
+    align-items: flex-start; */
+    grid-template-columns: 130px 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.div_livraison label{
+    text-align: right;
+    grid-column: 1;
+}
+
+.div_livraison input{
+    grid-column: span 2;
+    background:transparent;
+    border: 3px solid #e3a112;
+    border-top: none;
+    border-right: none;
+}
+
+.Data_button{
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    border:2px solid black;
+    background: #e3a112;
+}
+
+/* .div_livraison label{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.div_livraison label :nth-child(1){
+
+    width: 70%;
+    background: transparent;
+
+    border: 2px solid #e3a112;
+    border-top: none;
+    border-right: none;
+    
+} */
+
+
+/* 
+.Name_rue{
+    width: 65%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 2vh;
+    padding-left: 2%;
+    font-family: 'Sharp Sans Medium';
+    margin-bottom: 5%;
+    outline-color: #A8D4AD;
+}
+
+.Data_livraisonp{
+    width: 20%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 2vh;
+    padding-left: 2%;
+    font-family: 'Sharp Sans Medium';
+    margin-right: 1%;
+    outline-color: #A8D4AD;
+}
+
+.Data_livraisong{
+    width: 30%;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 2vh;
+    padding-left: 2%;
+    font-family: 'Sharp Sans Medium';
+    margin-right: 1%;
+    outline-color: #A8D4AD;
+} */
+
+.delivery_ville{
+    display: flex;
+    width: 100%;
+}

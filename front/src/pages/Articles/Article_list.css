@@ -1,0 +1,107 @@
+.Article_list_CallCards {
+    width: 100%;
+    /* background: grey; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.Article_list_background {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.Article_list_background img{
+    width: 100%;
+    height: auto;
+}
+
+.Article_list_background_txt{
+    position: absolute;
+    text-align: left;
+    
+    /* background: rgb(0, 0, 0); */
+    /* width: 30%; */
+    height: 500px;
+
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Article_list_background_txt p{
+    margin: 15px 100px;
+}
+
+.Article_list_background_txt_1{
+    font-family: "CenturyGothic-Bold", Microsoft JhengHei, 微軟正黑體, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Article_list_background_txt_2{
+    font-family: "CenturyGothic-Bold", Microsoft JhengHei, 微軟正黑體, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.Article_list_background_txt_3{
+    font-family: "CenturyGothic-Bold", Microsoft JhengHei, 微軟正黑體, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Article_list_def{
+    height: 250px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Article_list_def h1{
+
+    font-size: 50px;
+}
+
+.Article_list_def_nav{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100px;
+    transform: translateY(-50px);
+}
+
+.inp-art{
+    width: 90%;
+    height: 70%;
+    padding: 2%;
+    border-radius: 15px;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Article_list_CallCards {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 559px) {
+    .Article_list_CallCards {
+        padding-left: 0px;
+    }
+}

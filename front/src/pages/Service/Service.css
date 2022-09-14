@@ -1,0 +1,55 @@
+.Service_top{
+    margin-top: 10%;
+}
+
+.Service_top>form{
+    color: black;
+}
+
+.Service_top>form>select{
+    color: black;
+    margin: 0px 20px;
+    width: auto;
+    height: 44px;
+    border: 2px solid #e3a112;
+}
+
+.Service_top>form>button{
+    color: white;
+    
+    background: #e3a112;
+    margin: 0px 20px;
+    padding: 10px;
+}
+
+.Service_res{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.Service_response{
+    margin: 20px;
+    padding: 10px;
+    /* border:2px solid #e3a112; */
+}
+.Service_response:hover{
+    background: #e3a112;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.Service_Paypal{
+    /* width: 500px; */
+    position: absolute;
+    top: 45%;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    height: 175px;
+    /* background: blue; */
+}

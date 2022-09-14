@@ -1,0 +1,138 @@
+.Panier_Container{
+    color: black;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.Panier_Container h1{
+    color: white;
+    font-size: 50px;
+}
+
+.Cart_flex{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: rgb(241, 241, 241);
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.panier_div{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    border-top: 0.4px solid rgb(179, 178, 178);
+}
+
+.panier_div:hover{
+    background-color: #A8D4AD;
+}
+
+.cart_img_small{
+    width: 15vh;
+    height: 8vh;
+}
+
+.text_cart_div{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.txt_article_cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn_del_pan{
+    display: flex;
+}
+
+.title_artfeat{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Title_txt{
+    font-family: 'Sharp Sans Bold';
+    font-size: 2vh;
+}
+
+.Price_txt{
+    font-family: 'Sharp Sans Bold';
+    font-size: 2.4vh;
+}
+
+.Div_flex_cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Title_cart{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+}
+
+.ben_txt{
+    font-family: 'Sharp Sans Bold';
+    color: rgb(211, 76, 76);
+    font-size: 1.3vh;
+    transition: all 0.5s;
+}
+
+.ben_txt:hover{
+    transition: all 0.5s;
+    transform: translateY(-3px);
+}
+
+.Div_total_cart{
+    width: 22%;
+    height: 30vh;
+    border-radius: 3%;
+    background-color: rgb(241, 241, 241);
+    margin: 1%;
+    position: sticky;
+    top: 3%;
+}
+
+.Title_txt_total{
+    font-family: 'Sharp Sans Bold';
+    font-size: 3vh;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.nb_total{
+    font-family: 'Sharp Sans Medium';
+    font-size: 2vh;
+    margin-bottom: 5%;
+}
+
+.txt_petit{
+    font-family: 'Sharp Sans Regular';
+    color: rgb(122, 122, 122);
+    font-size: 1.2vh;
+    margin-bottom: 7%;
+}
+
+.Navbar_Panier_Link_btn{
+    font-family: 'Sharp Sans Bold';
+    background-color: #A8D4AD;
+    padding: 3% 15% 3% 15%;
+    border-radius: 10px;
+}
