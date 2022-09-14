@@ -1,7 +1,7 @@
-### Pour démarrer le projet:
+# Pour démarrer le projet:
  télécharger les dépendances dans le back:
 
- ### composer i
+### composer i
 
 lancer le back:
 ### symfony serve
