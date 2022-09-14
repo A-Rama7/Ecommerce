@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.No_Stock{
+  background: red;
+  width: 100%;
+}
+
+.Admin {
+  width: 100%;
+  height: 100vh;
+  background: rgb(53, 53, 53);
+  color: whitesmoke;
+
+  display: flex;
+}
+
+.Admin_Home{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Admin_Home_graphique{
+  width: 70%;
+  height: 30vh;
+  
+
+  background: grey;
+  margin: 50px 0px;
+}
+
+.Admin_Home_WorstBestSell{
+  width: 100%;
+  margin: 50px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Admin_Home_worstSell{
+  width: 45%;
+  height: 35vh;
+  background: rgb(255, 0, 191);
+}
+
+.Admin_Home_bestSell{
+  width:45%;
+  height: 35vh;
+  background: rgb(0, 255, 38);
+}
+
+.Admin_Link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.Box{
+  display: flex;
+  justify-content: center;
+}
+
+.Box1 {
+  background-color: #e3a112;
+  height: 100vh;
+  width: 35vw;
+  border-radius: 0% 50px 0% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Box2 {
+  height: 100vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.LogTxt {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.LogTxtTitle {
+  color: rgb(255, 255, 255);
+  font-size: 3.5rem;
+  padding-bottom: 1px;
+  font-weight: bold;
+}
+
+.BtnLog {
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  width: 50%;
+  padding: 2%;
+  border-radius: 50px;
+  margin-top: 15%;
+  font-weight: bold;
+}
+
+.divbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  border-right: #7d7d7d 3px solid;
+  margin-bottom: 1.5%;
+  padding: 0.5%;
+  background-color: #dadada;
+  text-align: center;
+  width: 25%;
+}
+
+.btn-form {
+  background-color: #e3a112;
+  padding: 1% 10%;
+  margin-top: 2%;
+  border-radius: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.FormTitle {
+  color: #e3a112;
+  font-size: 3rem;
+  margin-bottom: 3%;
+  padding-bottom: 1px;
+  font-weight: bold;
+}
+
+.LoginORregister{
+  position: absolute;
+  top: 40%;
+  left: 35%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  background: rgb(201, 201, 201);
+  border: 2px solid black;
+  border-radius: 10px;
+
+  width: 450px;
+  /* height: 100px; */
+  padding: 30px;
+}
+
+.LoginRegister_fond{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  background: rgba(6, 6, 6, 0.782);
+
+}
+
+.LoginORregister_title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.LoginORregister_r{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 90%;
+  height: 50px;
+  background: white;
+  border: 2px solid black;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.LoginORregister_none{
+  display: none;
+}
+
+.LoginORregister_close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  color: red;
+  font-size: 20px;
+}

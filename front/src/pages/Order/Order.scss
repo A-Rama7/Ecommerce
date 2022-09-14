@@ -1,0 +1,11 @@
+.Order_list {
+    display: flex;
+    flex-direction: column;
+
+    .Order_id {
+        border-bottom-width: 3px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(149, 149, 149) ;
+    }
+    
+}

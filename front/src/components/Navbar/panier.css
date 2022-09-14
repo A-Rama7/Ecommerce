@@ -1,0 +1,19 @@
+.changecette{
+    width: 90%;
+    height: 50px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid black;
+}
+
+.panier_div{
+    width: 90%;
+    height: 50px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid black;
+}

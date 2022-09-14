@@ -1,0 +1,173 @@
+.NavBar {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #292929;
+    height: 90px;
+}
+
+.colorHover:hover{
+    color: #ffffff;
+}
+
+.Navbar_Logo img {
+    height: 55px;
+    margin: 15px;
+}
+
+.Navbar_Icons {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 3px;
+    font-size: 150%;
+
+    color: rgb(255, 157, 0);
+}
+
+.Navbar_Panier_Show {
+    display: flex;
+    flex-direction: column;
+    background: rgb(44, 44, 44);
+    width: 400px;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 0px 0px 10px 10px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 65%;
+    right: 0;
+    z-index: 10;
+}
+
+.Navbar_Panier_noShow {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: rgb(0, 0, 0); */
+}
+
+.Navbar_Panier_Link {
+    background: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Navbar_Panier_Title {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 130%;
+    font-family: "Sharp Sans Bold";
+}
+
+.Navbar_Panier_Results {
+    width: 110%;
+    margin: 25px 0px 20px 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Navbar_Panier_Results_div {
+    width: 40%;
+    height: 30px;
+}
+
+.Navbar_Link {
+    /* width: 40%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t-link {
+    font-family: "CenturyGothic-Bold", Microsoft JhengHei, 微軟正黑體, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 20px;
+}
+
+/* SEARCH BAR */
+
+.Navbar_SearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(30px);
+    z-index: 11;
+}
+
+.Navbar_SearchBar_Input {
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #e3a112;
+    padding: 4.5% 5%;
+    outline: none
+}
+
+.Navbar_SearchBar_Button {
+    background-color: #e3a112;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 45px;
+    width: 50px;
+}
+
+.Navbar_SearchBar_Button:hover {
+    transition: 0.4s all;
+    background-color: #cc6e16;
+}
+
+.Navbar_dropdown {
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 100vh;
+    position: relative;
+}
+
+.Navbar_dropdown {
+    width: 454px;
+    height: 0px;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(20px);
+}
+
+.Navbar_dropdown_response {
+    background: rgb(10, 10, 10);
+    border: 2px solid #e3a112;
+    border-top: none;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Navbar_dropdown_response_re {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin: 10px 0px;
+    padding: 15px;
+}
+
+.Navbar_dropdown_response_re:hover {
+    background: #e3a112;
+}
+
+.Txt_drop {
+    padding: 2%;
+}

@@ -1,0 +1,58 @@
+.h1 {
+    margin: 3% 0;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.h2 {
+    margin: 2% 0;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.h3 {
+    margin: 2% 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.li {
+    margin: 1% 0;
+}
+
+.ul {
+    align-items: center;
+}
+
+.lign {
+    border-top: 1px solid rgb(255, 255, 255);
+    padding-top: 4%;
+    padding-bottom: 3%;
+    margin: 0 5%;
+}
+
+.partie_un {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5%;
+}
+
+.partie_deux {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 5%;
+}
+
+.left {
+    width: 90vw;
+}
+
+.img_dsc{
+    width: 30vw;
+    height: 50vh;
+    margin: 0 5%;
+}

@@ -1,0 +1,155 @@
+.Recommended{
+    /* ajouter un niveau de recommendation avec nombre 1 a 10 */
+    /* box-shadow: 1px 1px 35px yellow; */
+}
+
+.Promotion{
+    /* ajouter une font avec ecrit en promotion */
+    /* box-shadow: 1px 1px 35px red; */
+}
+
+.ArticleCard {
+    position: relative;
+    background: rgb(0, 0, 0);
+    
+    width: 33%;
+    height: 500px;
+    margin: 2px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+}
+
+.ArticleCard_Recommendation{
+    color: black;
+    background: yellow;
+    font-family: "CenturyGothic-Bold", "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif;
+
+    padding: 0px 10px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-radius: 0% 30px 30px;
+}
+.ArticleCard_Promotion{
+    color: black;
+    background: rgb(255, 38, 0);
+    font-family: "CenturyGothic-Bold", "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif;
+
+    padding: 0px 10px;
+
+    position: absolute;
+    top: 5%;
+    left: 0;
+    border-radius: 0% 30px 30px;
+}
+
+.ArticleCard_Image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 355px;
+    /* background: rgb(68, 68, 82); */
+}
+.ArticleCard_Image img {
+    /* width: 357px; */
+    height: 145px;
+}
+
+.ArticleCard_Footer{
+    width: 100%;
+    height: 145px;
+    color: white;
+
+    font-family: "CenturyGothic-Bold", "微軟正黑體", "Microsoft JhengHei", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* background: blue; */
+}
+
+.ArticleCard_More{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    /* transition: .5s; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayNone{
+    display: none;
+    /* transition: .5s; */
+}
+
+.ArticleCard_More:hover{
+    transition: 0.1s;
+}
+
+.displayNone:hover{
+    transition: 0.1s;
+}
+
+.ArticleCard_More_Describe p{
+    width: 300px;
+ 
+    text-align: center;
+    overflow-wrap: break-word;
+    overflow: hidden;
+
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+  
+    /* background-color: rgba(0, 0, 0, 0.392); */
+
+}
+
+.ArticleCard_More_Describe_effect{
+    z-index: 1;
+    width: 100%;
+
+    text-align: center;
+    z-index:999;
+    position:relative;
+    box-shadow: 0px -10px 10px black;
+    background: #000000;
+}
+
+.ArticleCard_More_Describe_ViewMore{
+    background: white;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 559px) {
+    .carte {
+
+    }
+}

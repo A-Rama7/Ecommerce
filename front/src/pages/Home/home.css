@@ -1,0 +1,104 @@
+.swiper {
+    margin-top: 5%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #2c2c2c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    height: 60vh;
+    object-fit: cover;
+    margin-right: 20%;
+}
+
+.swiper-button-next {
+    color: #cc6e16;
+    font-weight: bold;
+}
+
+.swiper-button-prev {
+    color: #cc6e16;
+    font-weight: bold;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #cc6e16;
+}
+
+.Tilte_Cat{
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 2%;
+    font-family: "Sharp Sans Bold";
+    margin-bottom: 2%;
+}
+
+.Tilte_Pop{
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    font-family: "Sharp Sans Bold";
+    margin-bottom: 2%;
+}
+
+.Home{
+    margin-top: 5%;
+}
+
+.cat_img{
+    border-radius: 50%;
+    width: 20vh;
+    max-height: 20vh;
+}
+
+.cat-txt{
+    margin-top: 10%;
+    font-size: 130%;
+    font-weight: bold;
+    font-family: "Sharp Sans Medium";
+}
+
+.cat-cards{
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+.Pop-inp{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 2%;
+    font-size: 130%;
+    font-weight: bold;
+    font-family: "Sharp Sans Regular";
+}
+
+.flexAccueil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

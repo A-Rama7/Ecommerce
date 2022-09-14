@@ -1,0 +1,23 @@
+.Error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.gifError{
+    width: 75vh;
+    height: 70vh;
+}
+
+.ErrorTxt{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.ErrorTime{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
